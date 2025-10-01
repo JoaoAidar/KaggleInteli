@@ -1,0 +1,50 @@
+{
+  "best_meta_learner": "Logistic Regression",
+  "cv_accuracy": 0.7911057692307691,
+  "cv_std": 0.04291629564574118,
+  "cv_precision": 0.7943184563191612,
+  "cv_recall": 0.9164343786295006,
+  "cv_f1": 0.8503321280901979,
+  "training_time": 8.813873,
+  "all_meta_learners": {
+    "Logistic Regression": {
+      "cv_accuracy": 0.7911057692307691,
+      "cv_std": 0.04291629564574118,
+      "cv_precision": 0.7943184563191612,
+      "cv_recall": 0.9164343786295006,
+      "cv_f1": 0.8503321280901979,
+      "training_time": 72.235357
+    },
+    "XGBoost": {
+      "cv_accuracy": 0.7694230769230769,
+      "cv_std": 0.0424143378351482,
+      "cv_precision": 0.7882888005649377,
+      "cv_recall": 0.8806039488966318,
+      "cv_f1": 0.8312248497814423,
+      "training_time": 73.92021
+    },
+    "LightGBM": {
+      "cv_accuracy": 0.7710096153846153,
+      "cv_std": 0.04786675215155569,
+      "cv_precision": 0.787991265808036,
+      "cv_recall": 0.8852497096399535,
+      "cv_f1": 0.833349362534935,
+      "training_time": 56.621302
+    }
+  },
+  "base_learners": [
+    "rf_original",
+    "rf_poly",
+    "xgb_original",
+    "extra_trees",
+    "lightgbm"
+  ],
+  "n_base_learners": 5,
+  "prediction_distribution": {
+    "success": 194,
+    "failure": 83,
+    "pct_success": 70.03610108303249,
+    "pct_failure": 29.96389891696751
+  },
+  "timestamp": "2025-09-30 14:32:20"
+}

@@ -1,0 +1,50 @@
+{
+  "optimal_threshold": 0.5,
+  "baseline_threshold": 0.5,
+  "cv_accuracy": 0.7926923076923076,
+  "cv_std": 0.02507897105547163,
+  "baseline_cv_accuracy": 0.7926923076923076,
+  "improvement_over_baseline": 0.0,
+  "all_thresholds": {
+    "0.35": {
+      "mean_accuracy": 0.770889423076923,
+      "std_accuracy": 0.0356793370647519
+    },
+    "0.4": {
+      "mean_accuracy": 0.7770913461538461,
+      "std_accuracy": 0.0338906589089027
+    },
+    "0.45": {
+      "mean_accuracy": 0.7895673076923077,
+      "std_accuracy": 0.03564656645041906
+    },
+    "0.5": {
+      "mean_accuracy": 0.7926923076923076,
+      "std_accuracy": 0.02507897105547163
+    },
+    "0.55": {
+      "mean_accuracy": 0.781875,
+      "std_accuracy": 0.04206925819653943
+    },
+    "0.6": {
+      "mean_accuracy": 0.7725961538461539,
+      "std_accuracy": 0.04286361701328457
+    },
+    "0.65": {
+      "mean_accuracy": 0.743221153846154,
+      "std_accuracy": 0.054406617006687946
+    }
+  },
+  "base_models": [
+    "rf_original",
+    "rf_poly",
+    "xgb_original"
+  ],
+  "prediction_distribution": {
+    "success": 194,
+    "failure": 83,
+    "pct_success": 70.03610108303249,
+    "pct_failure": 29.96389891696751
+  },
+  "timestamp": "2025-09-30 14:46:48"
+}

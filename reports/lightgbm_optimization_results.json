@@ -1,0 +1,24 @@
+{
+  "best_params": {
+    "n_estimators": 246,
+    "num_leaves": 29,
+    "max_depth": 12,
+    "learning_rate": 0.0848758640127235,
+    "min_child_samples": 75,
+    "subsample": 0.8107255169562201,
+    "colsample_bytree": 0.7112836611666964,
+    "reg_alpha": 9.699774357043013,
+    "reg_lambda": 0.8769418579472619
+  },
+  "cv_accuracy": 0.7956708407871199,
+  "n_trials": 150,
+  "best_trial": 53,
+  "prediction_distribution": {
+    "success": 196,
+    "failure": 81,
+    "pct_success": 70.7581227436823,
+    "pct_failure": 29.24187725631769
+  },
+  "training_time_seconds": 0.629331,
+  "timestamp": "2025-09-30 15:16:41"
+}

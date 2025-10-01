@@ -1,0 +1,25 @@
+{
+  "strategy": "top3_only",
+  "models_used": [
+    "majority_vote",
+    "voting_ensemble",
+    "weighted_ensemble",
+    "advanced",
+    "baseline"
+  ],
+  "model_weights": {
+    "majority_vote": 0.8188,
+    "voting_ensemble": 0.7971,
+    "weighted_ensemble": 0.7971,
+    "advanced": 0.7899,
+    "baseline": 0.7826
+  },
+  "prediction_distribution": {
+    "success": 189,
+    "failure": 88,
+    "pct_success": 68.23104693140795,
+    "pct_failure": 31.768953068592058
+  },
+  "difference_from_majority_vote": 8,
+  "timestamp": "2025-09-30 15:03:25"
+}

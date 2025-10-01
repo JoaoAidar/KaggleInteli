@@ -1,0 +1,17 @@
+{
+  "best_params": {
+    "clf__class_weight": null,
+    "clf__max_depth": 12,
+    "clf__max_features": "log2",
+    "clf__min_samples_leaf": 1,
+    "clf__min_samples_split": 2,
+    "clf__n_estimators": 600
+  },
+  "cv_accuracy": 0.8049759615384616,
+  "cv_std": 0.03918019252290188,
+  "cv_precision": 0.802811416541997,
+  "cv_recall": 0.928397212543554,
+  "cv_f1": 0.8603948321981664,
+  "training_time_minutes": 8.20502500931422,
+  "combinations_tested": 216
+}
